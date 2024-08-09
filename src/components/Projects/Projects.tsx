@@ -97,7 +97,7 @@ function App() {
         {t("projects.title")}
       </h3>
       <div>
-        {projects.slice(0, 5).map((project) => (
+        {projects.map((project) => (
           <Card
             prop={project.prop}
             skills={project.skills}
@@ -107,7 +107,7 @@ function App() {
           />
         ))}
       </div>
-      <div
+      {/* <div
         className="flex gap-2 items-center cursor-pointer mb-12 hover:underline hover:text-primary"
         onClick={() => {
           // setViewAll(!viewAll);
@@ -115,7 +115,7 @@ function App() {
       >
         <p className="font-semibold">View All Projects</p>
         <ArrowRight size={18} />
-      </div>
+      </div> */}
     </section>
   );
 }
