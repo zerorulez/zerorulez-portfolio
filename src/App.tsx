@@ -18,6 +18,7 @@ function App() {
 
   return (
     <main className="px-[24px] py-[48px] text-primary-foreground leading-relaxed transition-colors lg:px-[150px] xl:px-[250px]">
+      <div className="bg-primary h-[6px] absolute w-full top-0 left-0"></div>
       <Header />
       <Projects />
       <Experience />
