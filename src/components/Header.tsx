@@ -1,7 +1,10 @@
+import { FileText, Github, Linkedin, Mail } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import CV_EN from "@/assets/CV_EN.pdf";
+import CV_BR from "@/assets/CV_BR.pdf";
 
 function App() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   return (
     <section className="flex flex-col">
@@ -16,7 +19,7 @@ function App() {
           title="GitHub"
           aria-label="GitHub (opens in a new tab)"
         >
-          <i className="devicon-github-original"></i>
+          <Github />
         </a>
         <a
           href="https://www.linkedin.com/in/lucasmribe/"
@@ -25,18 +28,18 @@ function App() {
           title="LinkedIn"
           aria-label="LinkedIn (opens in a new tab)"
         >
-          <i className="devicon-linkedin-plain"></i>
+          <Linkedin />
         </a>
-        {/* <a href="mailto:ribeirolucasdev@gmail.com">
-            <Tooltip>
-              <TooltipTrigger>
-                <Mail size={24} />
-              </TooltipTrigger>
-              <TooltipContent>
-                <p>{t("header.contact")}</p>
-              </TooltipContent>
-            </Tooltip>
-          </a> */}
+        <a href="mailto:ribeirolucasdev@gmail.com" title={t("header.contact")}>
+          <Mail />
+        </a>
+        <a
+          download="CV.pdf"
+          href={i18n.language === "pt-BR" ? CV_BR : CV_EN}
+          title={t("header.download")}
+        >
+          <FileText />
+        </a>
       </div>
     </section>
   );

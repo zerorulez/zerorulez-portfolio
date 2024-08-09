@@ -1,3 +1,4 @@
+import { ArrowUpRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 function App() {
@@ -19,10 +20,13 @@ function App() {
             rel="noopener noreferrer"
             className="font-semibold hover:text-primary"
           >
-            {t("experience.allianca.title")}
+            <div className="flex gap-1 items-center">
+              {t("experience.allianca.title")}
+              <ArrowUpRight size={18} />
+            </div>
           </a>
           <p className="mt-2 text-sm">{t("experience.allianca.description")}</p>
-          <ul className="mt-3 font-semibold text-xs flex flex-wrap gap-2">
+          <ul className="mt-3 font-semibold text-xs flex flex-wrap gap-2 text-white">
             <li className="px-3 py-1 leading-5 rounded-full bg-primary">
               React
             </li>
@@ -42,6 +46,9 @@ function App() {
               Docker
             </li>
             <li className="px-3 py-1 leading-5 rounded-full bg-primary">GCP</li>
+            <li className="px-3 py-1 leading-5 rounded-full bg-primary">
+              Continuous Integration
+            </li>
           </ul>
         </div>
         <div className="mb-12">
@@ -54,10 +61,13 @@ function App() {
             rel="noopener noreferrer"
             className="font-semibold hover:text-primary"
           >
-            {t("experience.mobly.title")}
+            <div className="flex gap-1 items-center">
+              {t("experience.mobly.title")}
+              <ArrowUpRight size={18} />
+            </div>
           </a>
           <p className="mt-2 text-sm">{t("experience.mobly.description")}</p>
-          <ul className="mt-3 font-semibold text-xs flex flex-wrap gap-2">
+          <ul className="mt-3 font-semibold text-xs flex flex-wrap gap-2 text-white">
             <li className="px-3 py-1 leading-5 rounded-full bg-primary">
               Next.js
             </li>
@@ -69,6 +79,9 @@ function App() {
               Docker
             </li>
             <li className="px-3 py-1 leading-5 rounded-full bg-primary">AWS</li>
+            <li className="px-3 py-1 leading-5 rounded-full bg-primary">
+              Continuous Integration
+            </li>
           </ul>
         </div>
         <div className="mb-12">
@@ -81,10 +94,13 @@ function App() {
             rel="noopener noreferrer"
             className="font-semibold hover:text-primary"
           >
-            {t("experience.bbl.title")}
+            <div className="flex gap-1 items-center">
+              {t("experience.bbl.title")}
+              <ArrowUpRight size={18} />
+            </div>
           </a>
           <p className="mt-2 text-sm">{t("experience.bbl.description")}</p>
-          <ul className="mt-3 font-semibold text-xs flex flex-wrap gap-2">
+          <ul className="mt-3 font-semibold text-xs flex flex-wrap gap-2 text-white">
             <li className="px-3 py-1 leading-5 rounded-full bg-primary">Vue</li>
             <li className="px-3 py-1 leading-5 rounded-full bg-primary">
               JavaScript
@@ -115,10 +131,13 @@ function App() {
             rel="noopener noreferrer"
             className="font-semibold hover:text-primary"
           >
-            {t("experience.pravy.title")}
+            <div className="flex gap-1 items-center">
+              {t("experience.pravy.title")}
+              <ArrowUpRight size={18} />
+            </div>
           </a>
           <p className="mt-2 text-sm">{t("experience.pravy.description")}</p>
-          <ul className="mt-3 font-semibold text-xs flex flex-wrap gap-2">
+          <ul className="mt-3 font-semibold text-xs flex flex-wrap gap-2 text-white">
             <li className="px-3 py-1 leading-5 rounded-full bg-primary">
               Angular
             </li>

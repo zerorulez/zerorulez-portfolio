@@ -1,7 +1,9 @@
+import { t } from "i18next";
+
 function App() {
   return (
-    <footer id="footer" className="mt-16 text-sm">
-      Designed in{" "}
+    <footer id="footer" className="mt-8 text-sm">
+      {`${t("footer.designed")} `}
       <a
         href="https://www.figma.com/"
         target="_blank"
@@ -9,8 +11,8 @@ function App() {
         className="font-semibold hover:text-primary"
       >
         Figma
-      </a>{" "}
-      and developed in{" "}
+      </a>
+      {` ${t("footer.developed")} `}
       <a
         href="https://code.visualstudio.com/"
         target="_blank"
@@ -18,8 +20,8 @@ function App() {
         className="font-semibold hover:text-primary"
       >
         Visual Studio Code
-      </a>{" "}
-      by me. Created using{" "}
+      </a>
+      {` ${t("footer.created")} `}
       <a
         href="https://react.dev/"
         target="_blank"
@@ -27,8 +29,8 @@ function App() {
         className="font-semibold hover:text-primary"
       >
         React
-      </a>{" "}
-      and{" "}
+      </a>
+      {", "}
       <a
         href="https://tailwindcss.com/"
         target="_blank"
@@ -37,7 +39,7 @@ function App() {
       >
         Tailwind CSS
       </a>
-      , and deployed with{" "}
+      {` ${t("footer.deployed")} `}
       <a
         href="https://pages.github.com/"
         target="_blank"
@@ -46,7 +48,7 @@ function App() {
       >
         GitHub Pages
       </a>
-      . All text is styled in the{" "}
+      {`${t("footer.text")} `}
       <a
         href="https://fonts.google.com/specimen/Roboto"
         target="_blank"
@@ -54,8 +56,8 @@ function App() {
         className="font-semibold hover:text-primary"
       >
         Roboto
-      </a>{" "}
-      typeface.
+      </a>
+      {`${t("footer.typeface")}`}
     </footer>
   );
 }
