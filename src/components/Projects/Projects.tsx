@@ -10,7 +10,6 @@ import MimmoImage from "@/assets/Mimmo.png";
 import AnferplasImage from "@/assets/Anferplas.png";
 
 import Card from "./Card";
-import { ArrowRight } from "lucide-react";
 import { t } from "i18next";
 
 const projects = [
