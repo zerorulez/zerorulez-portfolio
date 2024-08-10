@@ -17,6 +17,9 @@ i18n.use(initReactI18next).init({
             "I create pixel-perfect, engaging, and accessible digital experiences.",
           contact: "Get In Touch",
           download: "Download CV",
+          language: "Change Language",
+          light: "Light Mode",
+          dark: "Dark Mode",
         },
         about: {
           title: "ABOUT",
@@ -122,6 +125,9 @@ i18n.use(initReactI18next).init({
             "Eu crio experiências digitais perfeitas, envolventes e acessíveis.",
           contact: "Entre em Contato",
           download: "Baixar CV",
+          language: "Trocar Idioma",
+          light: "Modo Claro",
+          dark: "Modo Escuro",
         },
         about: {
           title: "SOBRE",
@@ -136,7 +142,7 @@ i18n.use(initReactI18next).init({
               "Esta landing page é elaborada para cativar os visitantes e convertê-los em inscritos. Foi projetada com uma estética limpa e moderna que reflete a identidade da marca do YouTuber e engaja os usuários desde o momento em que entram na página.",
           },
           scheduler: {
-            title: "Agendador de Exames",
+            title: "Agendar Exames",
             description:
               "Este sistema foi criado para otimizar os processos administrativos em um ambiente de saúde. Apresenta uma interface amigável que permite à equipe buscar, registrar e atualizar informações dos pacientes, gerenciar orçamentos e agendar exames com facilidade.",
           },

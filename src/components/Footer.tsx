@@ -8,7 +8,7 @@ function App() {
         href="https://www.figma.com/"
         target="_blank"
         rel="noopener noreferrer"
-        className="font-semibold hover:text-primary"
+        className="font-semibold transition-all duration-300 hover:text-primary"
       >
         Figma
       </a>
@@ -17,7 +17,7 @@ function App() {
         href="https://code.visualstudio.com/"
         target="_blank"
         rel="noopener noreferrer"
-        className="font-semibold hover:text-primary"
+        className="font-semibold transition-all duration-300 hover:text-primary"
       >
         Visual Studio Code
       </a>
@@ -26,7 +26,7 @@ function App() {
         href="https://react.dev/"
         target="_blank"
         rel="noopener noreferrer"
-        className="font-semibold hover:text-primary"
+        className="font-semibold transition-all duration-300 hover:text-primary"
       >
         React
       </a>
@@ -35,7 +35,7 @@ function App() {
         href="https://tailwindcss.com/"
         target="_blank"
         rel="noopener noreferrer"
-        className="font-semibold hover:text-primary"
+        className="font-semibold transition-all duration-300 hover:text-primary"
       >
         Tailwind CSS
       </a>
@@ -44,7 +44,7 @@ function App() {
         href="https://pages.github.com/"
         target="_blank"
         rel="noopener noreferrer"
-        className="font-semibold hover:text-primary"
+        className="font-semibold transition-all duration-300 hover:text-primary"
       >
         GitHub Pages
       </a>
@@ -53,7 +53,7 @@ function App() {
         href="https://fonts.google.com/specimen/Roboto"
         target="_blank"
         rel="noopener noreferrer"
-        className="font-semibold hover:text-primary"
+        className="font-semibold transition-all duration-300 hover:text-primary"
       >
         Roboto
       </a>

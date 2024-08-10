@@ -18,11 +18,14 @@ function App() {
             href="https://www.cdb.com.br/"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-semibold hover:text-primary"
+            className="font-semibold transition-all duration-300 group/link hover:text-primary"
           >
             <div className="flex gap-1 items-center">
               {t("experience.allianca.title")}
-              <ArrowUpRight size={18} />
+              <ArrowUpRight
+                size={18}
+                className="transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1"
+              />
             </div>
           </a>
           <p className="mt-2 text-sm">{t("experience.allianca.description")}</p>
@@ -59,11 +62,14 @@ function App() {
             href="https://www.mobly.com.br/"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-semibold hover:text-primary"
+            className="font-semibold transition-all duration-300 group/link hover:text-primary"
           >
             <div className="flex gap-1 items-center">
               {t("experience.mobly.title")}
-              <ArrowUpRight size={18} />
+              <ArrowUpRight
+                size={18}
+                className="transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1"
+              />
             </div>
           </a>
           <p className="mt-2 text-sm">{t("experience.mobly.description")}</p>
@@ -92,11 +98,14 @@ function App() {
             href="https://bbl.gg/"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-semibold hover:text-primary"
+            className="font-semibold transition-all duration-300 group/link hover:text-primary"
           >
             <div className="flex gap-1 items-center">
               {t("experience.bbl.title")}
-              <ArrowUpRight size={18} />
+              <ArrowUpRight
+                size={18}
+                className="transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1"
+              />
             </div>
           </a>
           <p className="mt-2 text-sm">{t("experience.bbl.description")}</p>
@@ -129,11 +138,14 @@ function App() {
             href="https://pravy.com.br/"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-semibold hover:text-primary"
+            className="font-semibold transition-all duration-300 group/link hover:text-primary"
           >
             <div className="flex gap-1 items-center">
               {t("experience.pravy.title")}
-              <ArrowUpRight size={18} />
+              <ArrowUpRight
+                size={18}
+                className="transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1"
+              />
             </div>
           </a>
           <p className="mt-2 text-sm">{t("experience.pravy.description")}</p>

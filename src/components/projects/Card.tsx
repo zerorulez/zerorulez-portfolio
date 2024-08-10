@@ -17,11 +17,16 @@ function App({ prop, skills, image, link }: CardProps) {
           href={link}
           target="_blank"
           rel="noopener noreferrer"
-          className="font-semibold hover:text-primary"
+          className="font-semibold transition-all duration-300 group/link hover:text-primary"
         >
           <div className="flex gap-1 items-center">
             {t(`projects.${prop}.title`)}
-            {link && <ArrowUpRight size={18} />}
+            {link && (
+              <ArrowUpRight
+                size={18}
+                className="transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1"
+              />
+            )}
           </div>
         </a>
         <p className="mt-2 text-sm"> {t(`projects.${prop}.description`)}</p>
