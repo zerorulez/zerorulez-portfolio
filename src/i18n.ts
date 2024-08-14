@@ -14,69 +14,64 @@ i18n.use(initReactI18next).init({
           title: "Lucas Ribeiro",
           subtitle: "Senior Front-end Engineer",
           description:
-            "I create pixel-perfect, engaging, and accessible digital experiences.",
+            "Transforming ideas into digital experiences: where design meets functionality.",
           contact: "Get In Touch",
           download: "Download CV",
           language: "Change Language",
           light: "Light Mode",
           dark: "Dark Mode",
         },
-        about: {
-          title: "ABOUT",
-          description:
-            "Since I began my journey as a developer nearly 6 years ago, I have had the opportunity to work with various agencies, collaborate with experienced programmers, and join forces with talented individuals to create digital products for both commercial and consumer use. My natural curiosity and commitment to solving problems one at a time have been key to my growth and success in this field.",
-        },
         projects: {
           title: "PROJECTS",
           guto: {
-            title: "Aventuras de Guto",
+            title: "Guto's Adventures",
             description:
-              "This landing page is crafted to captivate visitors and convert them into subscribers. It’s designed with a clean, modern aesthetic that mirrors the YouTuber’s brand identity and engages users from the moment they land on the page.",
+              "This landing page was designed to attract and convert visitors into subscribers. With a clean and modern aesthetic, it highlights the YouTuber's identity and keeps users engaged from the first visit.",
           },
           scheduler: {
-            title: "Exams Scheduler",
+            title: "Schedule Exams",
             description:
-              "This system is crafted to streamline the administrative processes within a healthcare setting. It features a user-friendly interface that allows staff to effortlessly search for, register, and update patient information, manage budgets, and schedule exams.",
+              "This system was developed to maximize the efficiency of administrative processes in healthcare settings. With an intuitive interface, it facilitates the team's search, registration, and updating of patient information, budget management, and exam scheduling, providing a more agile and organized operation.",
           },
           forms: {
             title: "Custom Forms",
             description:
-              "This comprehensive forms management system was built to streamline the entire lifecycle of form handling. From creation to distribution and analysis, the system provides a seamless experience for employees looking to manage forms efficiently.",
+              "This integrated form management system was developed to maximize efficiency at all stages of the process. From creation to distribution and analysis, the system provides a seamless experience that enhances employee productivity and ensures more efficient form management, resulting in time and resource savings for the company.",
           },
           furniture: {
             title: "Mobly",
             description:
-              "This e-commerce platform was developed to enhance the in-store shopping experience by allowing customers to browse, customize, and purchase furniture directly from kiosks located within the company’s stores. The system is designed to be engaging and easy to use, ensuring a seamless integration into the retail environment.",
+              "This e-commerce platform enhances the shopping experience by allowing customers to browse, customize, and purchase furniture directly from kiosks in stores. The intuitive interface increases customer satisfaction and drives sales, seamlessly integrating into the retail environment.",
           },
           flakes: {
             title: "Flakes Power Cup",
             description:
-              "This landing page was designed to promote and drive engagement for a game championship hosted by a popular streamer. The goal was to create a visually striking and interactive platform that captures the excitement of the event, attracts participants, and keeps fans informed.",
+              "This landing page was developed to maximize engagement and participation in the gaming championship promoted by a popular streamer. The impactful and interactive design aims to capture the excitement of the event, attract new participants, and ensure that fans stay informed, thereby increasing the reach and visibility of the championship.",
           },
           freefire: {
             title: "Free Fire Championship",
             description:
-              "This innovative system was designed to enhance live gaming events by automating real-time interactions between the game’s API and the event’s visual and lighting elements. The goal was to create a synchronized experience that elevates the excitement and engagement of live broadcasts and in-game events.",
+              "This innovative system enhances live gaming events by automating the integration between the game’s API and visual and lighting elements, increasing excitement and engagement, and consequently, the brand’s visibility and impact.",
           },
           bandstand: {
             title: "Bandstand Memories",
             description:
-              "This landing page was designed as part of a university project to highlight a compelling video series documenting the personal memories and historical significance of bandstands in different cities. The goal was to create an engaging and visually appealing platform that draws visitors into the rich tapestry of community life captured in these videos.",
+              "This landing page, created as part of a university project, aims to promote a series of engaging videos about the historical significance of bandstands in various cities. The goal is to provide a visually appealing platform that increases visitor interest and highlights the cultural and community relevance documented in the videos.",
           },
           malls: {
             title: "Shopping Mall",
             description:
-              "This website was created to enhance the visitor experience by offering a central hub of information about the shopping mall. It features detailed listings of stores, cinema schedules, and various mall amenities, all presented through an engaging and user-friendly interface.",
+              "This site was developed to maximize value for the company by optimizing the visitor experience and centralizing essential information about the mall. With detailed listings of stores, movie times, and amenities, the platform not only enhances customer satisfaction but also boosts operational efficiency and promotes a positive image of the mall.",
           },
           mimmo: {
             title: "Mimmo",
             description:
-              "The website was designed to provide visitors with a comprehensive overview of the toilet paper brand's history while incorporating an interactive element—a mini-game—to create a memorable and enjoyable experience. The goal was to blend informative content with interactive fun, reinforcing the brand’s identity and connecting with users on a personal level.",
+              "The site was created to reinforce the identity of the toilet paper brand by offering an overview of its history and including an interactive mini-game. This approach combines information and entertainment, creating a memorable experience that strengthens personal connections with users and adds value to the brand.",
           },
           anferplas: {
             title: "Anferplas",
             description:
-              "The website was designed to effectively represent the plastic manufacturing company, offering detailed information about its range of products and facilitating easy communication with potential clients. The goal was to create a professional and user-friendly site that highlights the company’s expertise and product diversity.",
+              "The site was developed to effectively represent the plastic manufacturing company by providing detailed information about its products and facilitating communication with potential customers. With a professional and intuitive design, the site highlights the company's expertise and the diversity of its offerings, increasing attraction and conversion of new business.",
           },
         },
         experience: {
@@ -85,25 +80,25 @@ i18n.use(initReactI18next).init({
             title: "Senior Front-end Engineer at Alliança",
             duration: "Jan 2022 — Present",
             description:
-              "I was involved in projects from conception to delivery, developing customized forms for patients to request exams and creating a scheduling platform for call center agents.",
+              "I developed a system that digitized forms and automated processes, enhancing accuracy, data security, and efficiency, while also generating cost savings and improving regulatory compliance.",
           },
           mobly: {
             title: "Front-end Engineer at Mobly",
             duration: "May 2021 — Dec 2021",
             description:
-              "I was responsible for the creation and implementation of a website for an innovative project focused on interactive kiosks designed for selling furniture.",
+              "I contributed to the development of a self-service kiosk software that allows customers to place orders autonomously. The solution improved efficiency, reduced queues and operational costs, and enhanced order management.",
           },
           bbl: {
             title: "Front-end Engineer at BBL e-SPORTS",
             duration: "Sep 2019 — May 2021",
             description:
-              "Built responsive landing pages, registration forms, and real-time result displays for e-sports tournaments, enhancing user experience and live event interfaces.",
+              "I developed landing pages, responsive forms for e-sports tournaments, and live event interfaces, which enhanced efficiency and viewer satisfaction, positioning the company as a leader in innovation and experience in the e-sports industry.",
           },
           pravy: {
             title: "Junior Front-end Engineer at Pravy",
             duration: "May 2018 — Sep 2019",
             description:
-              "Developed email marketing campaigns, managed shopping mall websites, and created optimized landing pages to enhance conversions and user engagement.",
+              "I created marketing emails, managed shopping center websites, and developed optimized landing pages, resulting in a significant increase in conversions and user engagement, which drove growth and visibility for clients.",
           },
         },
         footer: {
@@ -122,69 +117,64 @@ i18n.use(initReactI18next).init({
           title: "Lucas Ribeiro",
           subtitle: "Engenheiro Front-end Sênior",
           description:
-            "Eu crio experiências digitais perfeitas, envolventes e acessíveis.",
+            "Transformando ideias em experiências digitais: onde o design encontra a funcionalidade.",
           contact: "Entre em Contato",
           download: "Baixar CV",
           language: "Trocar Idioma",
           light: "Modo Claro",
           dark: "Modo Escuro",
         },
-        about: {
-          title: "SOBRE",
-          description:
-            "Desde que comecei minha jornada como desenvolvedor há quase 6 anos, tive a oportunidade de trabalhar com várias agências, colaborar com programadores experientes e unir forças com indivíduos talentosos para criar produtos digitais para uso comercial e consumidor. Minha curiosidade natural e compromisso em resolver problemas um de cada vez têm sido fundamentais para meu crescimento e sucesso nesta área.",
-        },
         projects: {
           title: "PROJETOS",
           guto: {
             title: "Aventuras de Guto",
             description:
-              "Esta landing page é elaborada para cativar os visitantes e convertê-los em inscritos. Foi projetada com uma estética limpa e moderna que reflete a identidade da marca do YouTuber e engaja os usuários desde o momento em que entram na página.",
+              "Esta landing page foi projetada para atrair e converter visitantes em inscritos. Com uma estética limpa e moderna, ela destaca a identidade do YouTuber e mantém os usuários engajados desde o primeiro acesso.",
           },
           scheduler: {
             title: "Agendar Exames",
             description:
-              "Este sistema foi criado para otimizar os processos administrativos em um ambiente de saúde. Apresenta uma interface amigável que permite à equipe buscar, registrar e atualizar informações dos pacientes, gerenciar orçamentos e agendar exames com facilidade.",
+              "Este sistema foi desenvolvido para maximizar a eficiência dos processos administrativos em ambientes de saúde. Com uma interface intuitiva, ele facilita à equipe a busca, registro e atualização de informações dos pacientes, a gestão de orçamentos e o agendamento de exames, proporcionando uma operação mais ágil e organizada.",
           },
           forms: {
             title: "Formulários Personalizados",
             description:
-              "Este sistema abrangente de gerenciamento de formulários foi construído para otimizar todo o ciclo de vida do manuseio de formulários. Desde a criação até a distribuição e análise, o sistema oferece uma experiência contínua para os funcionários que buscam gerenciar formulários de maneira eficiente.",
+              "Este sistema integrado de gerenciamento de formulários foi desenvolvido para maximizar a eficiência em todas as etapas do processo. Desde a criação até a distribuição e análise, o sistema proporciona uma experiência contínua que melhora a produtividade dos funcionários e garante um gerenciamento de formulários mais eficiente, resultando em economia de tempo e recursos para a empresa.",
           },
           furniture: {
             title: "Mobly",
             description:
-              "Esta plataforma de e-commerce foi desenvolvida para aprimorar a experiência de compra na loja, permitindo que os clientes naveguem, personalizem e comprem móveis diretamente dos totens localizados nas lojas da empresa. O sistema foi projetado para ser envolvente e fácil de usar, garantindo uma integração perfeita ao ambiente de varejo.",
+              "Esta plataforma de e-commerce melhora a experiência de compra ao permitir que clientes naveguem, personalizem e adquiram móveis diretamente dos totens nas lojas. A interface intuitiva aumenta a satisfação do cliente e impulsiona as vendas, integrando-se perfeitamente ao ambiente de varejo.",
           },
           flakes: {
             title: "Flakes Power Cup",
             description:
-              "Esta landing page foi projetada para promover e engajar para um campeonato de jogo hospedado por um streamer popular. O objetivo foi criar uma plataforma visualmente marcante e interativa que capture a emoção do evento, atraia participantes e mantenha os fãs informados.",
+              "Esta landing page foi desenvolvida para maximizar o engajamento e a participação no campeonato de jogo promovido por um streamer popular. O design impactante e interativo visa capturar a emoção do evento, atrair novos participantes e garantir que os fãs permaneçam informados, aumentando assim o alcance e a visibilidade do campeonato.",
           },
           freefire: {
             title: "Campeonato Free Fire",
             description:
-              "Este sistema inovador foi projetado para aprimorar eventos de jogos ao vivo automatizando interações em tempo real entre a API do jogo e os elementos visuais e de iluminação do evento. O objetivo era criar uma experiência sincronizada que eleva a emoção e o engajamento das transmissões ao vivo e eventos dentro do jogo.",
+              "Este sistema inovador melhora eventos de jogos ao vivo ao automatizar a integração entre a API do jogo e os elementos visuais e de iluminação, aumentando a emoção e o engajamento e, consequentemente, a visibilidade e o impacto da marca.",
           },
           bandstand: {
             title: "Memórias de Coreto",
             description:
-              "Esta landing page foi projetada como parte de um projeto universitário para destacar uma série de vídeos cativantes que documentam as memórias pessoais e a importância histórica dos coretos em diferentes cidades. O objetivo foi criar uma plataforma envolvente e visualmente atraente que atraia os visitantes para o rico mosaico da vida comunitária capturado nesses vídeos.",
+              "Esta landing page, criada como parte de um projeto universitário, visa promover uma série de vídeos envolventes sobre a importância histórica dos coretos em diversas cidades. O objetivo é oferecer uma plataforma visualmente atraente que aumente o interesse dos visitantes e destaque a relevância cultural e comunitária registrada nos vídeos.",
           },
           malls: {
             title: "Shopping Mall",
             description:
-              "Este site foi criado para aprimorar a experiência do visitante oferecendo um hub central de informações sobre o shopping. Apresenta listagens detalhadas de lojas, horários de cinema e várias comodidades do shopping, tudo apresentado através de uma interface envolvente e amigável.",
+              "Este site foi desenvolvido para maximizar o valor para a empresa ao otimizar a experiência do visitante e centralizar informações essenciais sobre o shopping. Com listagens detalhadas de lojas, horários de cinema e comodidades, a plataforma não apenas melhora a satisfação dos clientes, mas também potencializa a eficiência operacional e promove uma imagem positiva do shopping.",
           },
           mimmo: {
             title: "Mimmo",
             description:
-              "O site foi projetado para fornecer aos visitantes uma visão geral abrangente da história da marca de papel higiênico, enquanto incorpora um elemento interativo—um mini-jogo—para criar uma experiência memorável e agradável. O objetivo foi combinar conteúdo informativo com diversão interativa, reforçando a identidade da marca e conectando-se com os usuários de forma pessoal.",
+              "O site foi criado para reforçar a identidade da marca de papel higiênico ao oferecer uma visão geral da sua história e incluir um mini-jogo interativo. Essa abordagem combina informação e entretenimento, criando uma experiência memorável que fortalece a conexão pessoal com os usuários e valoriza a marca.",
           },
           anferplas: {
             title: "Anferplas",
             description:
-              "O site foi projetado para representar efetivamente a empresa de manufatura de plásticos, oferecendo informações detalhadas sobre sua gama de produtos e facilitando a comunicação com clientes potenciais. O objetivo foi criar um site profissional e fácil de usar que destaca a expertise e a diversidade de produtos da empresa.",
+              "O site foi desenvolvido para representar de maneira eficaz a empresa de manufatura de plásticos, fornecendo informações detalhadas sobre seus produtos e facilitando a comunicação com clientes potenciais. Com um design profissional e intuitivo, o site destaca a expertise da empresa e a diversidade de sua oferta, aumentando a atração e conversão de novos negócios.",
           },
         },
         experience: {
@@ -193,25 +183,25 @@ i18n.use(initReactI18next).init({
             title: "Engenheiro Front-end Sênior na Alliança",
             duration: "Jan 2022 — Presente",
             description:
-              "Participei de projetos desde a concepção até a entrega, desenvolvendo formulários personalizados para pacientes solicitarem exames e criando uma plataforma de agendamento para agentes de call center.",
+              "Desevolvi um sistema que digitalizou formulários e automatizou processos, aumentando a precisão, segurança dos dados e eficiência, além de gerar economia e melhorar a conformidade regulatória.",
           },
           mobly: {
             title: "Engenheiro Front-end na Mobly",
             duration: "Mai 2021 — Dez 2021",
             description:
-              "Fui responsável pela criação e implementação de um site para um projeto inovador focado em totens interativos destinados à venda de móveis.",
+              "Contribuí para o desenvolvimento de um software de totem de autoatendimento, que permite a clientes realizar pedidos de forma autônoma. A solução melhorou a eficiência, reduziu filas e custos operacionais, e aprimorou a gestão de pedidos.",
           },
           bbl: {
             title: "Engenheiro Front-end na BBL e-SPORTS",
             duration: "Set 2019 — Mai 2021",
             description:
-              "Criei landing pages responsivas, formulários de registro e exibições de resultados em tempo real para torneios de e-sports, melhorando a experiência do usuário e as interfaces de eventos ao vivo.",
+              "Desenvolvi landing pages, formulários responsivos para torneios de e-sports e interfaces de eventos ao vivo, o que elevou a eficiência e a satisfação dos espectadores, destacando a empresa como líder em inovação e experiência no setor de e-sports.",
           },
           pravy: {
             title: "Engenheiro Front-end Júnior na Pravy",
             duration: "Mai 2018 — Set 2019",
             description:
-              "Desenvolvi campanhas de e-mail marketing, gerenciei sites de shoppings e criei landing pages otimizadas para melhorar conversões e engajamento do usuário.",
+              "Criei e-mails marketing, gerenciei sites de shopping centers e desenvolvi landing pages otimizadas, resultando em aumento significativo das conversões e do engajamento do usuário, o que impulsionou o crescimento e a visibilidade dos clientes.",
           },
         },
         footer: {
