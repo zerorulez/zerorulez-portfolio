@@ -16,6 +16,19 @@
       gtag("config", "G-KKH0GEG07W");
     </script>
 
+    <!-- Amplitude -->
+    <script src="https://cdn.amplitude.com/libs/analytics-browser-2.10.0-min.js.gz"></script>
+    <script src="https://cdn.amplitude.com/libs/plugin-session-replay-browser-1.6.17-min.js.gz"></script>
+    <script>
+      window.amplitude
+        .add(window.sessionReplay.plugin({ sampleRate: 1 }))
+        .promise.then(function () {
+          window.amplitude.init("30331f1964f05fa101a615810f00dee3", {
+            autocapture: { elementInteractions: true },
+          });
+        });
+    </script>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta property="og:title" content="Lucas Ribeiro - Front-end Engineer" />
