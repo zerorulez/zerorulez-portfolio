@@ -42,7 +42,7 @@ function App() {
   return (
     <main
       className={clsx(
-        "px-[24px] py-[48px] text-primary-foreground leading-relaxed lg:px-[150px] xl:px-[250px] bg-background",
+        "px-[24px] py-[48px] text-primary-foreground leading-relaxed bg-background max-w-screen-md mx-auto",
         theme !== "light" && "dark"
       )}
     >

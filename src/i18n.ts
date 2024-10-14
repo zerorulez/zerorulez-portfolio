@@ -23,6 +23,11 @@ i18n.use(initReactI18next).init({
         },
         projects: {
           title: "PROJECTS",
+          loveyou: {
+            title: "Amo Você",
+            description:
+              "A microSaaS that allows users to create personalized pages to celebrate the length of relationships between couples. The platform offers customizable counters with messages and photos, providing a simple and creative experience to surprise loved ones on special occasions.",
+          },
           guto: {
             title: "Guto's Adventures",
             description:
@@ -31,12 +36,12 @@ i18n.use(initReactI18next).init({
           scheduler: {
             title: "Schedule Exams",
             description:
-              "This system was developed to maximize the efficiency of administrative processes in healthcare settings. With an intuitive interface, it facilitates the team's search, registration, and updating of patient information, budget management, and exam scheduling, providing a more agile and organized operation.",
+              "A system to streamline exam scheduling and quoting, replacing the phone service that allowed only one exam to be scheduled at a time. With WhatsApp integration, the system improved operational efficiency and provided a faster experience for patients.",
           },
           forms: {
             title: "Custom Forms",
             description:
-              "This integrated form management system was developed to maximize efficiency at all stages of the process. From creation to distribution and analysis, the system provides a seamless experience that enhances employee productivity and ensures more efficient form management, resulting in time and resource savings for the company.",
+              "A system to digitize paper forms used in medical laboratories, enhancing the control and quality of patient information. The project increased efficiency, reduced errors, improved data security, and resulted in cost savings, transforming data management and providing a safer experience for all involved.",
           },
           furniture: {
             title: "Mobly",
@@ -126,6 +131,11 @@ i18n.use(initReactI18next).init({
         },
         projects: {
           title: "PROJETOS",
+          loveyou: {
+            title: "Amo Você",
+            description:
+              "Um microSaaS que permite criar páginas personalizadas para celebrar o tempo de relacionamento entre casais. A plataforma oferece contadores customizáveis, com mensagens e fotos, proporcionando uma experiência simples e criativa para surpreender a pessoa amada em datas especiais.",
+          },
           guto: {
             title: "Aventuras de Guto",
             description:
@@ -134,12 +144,12 @@ i18n.use(initReactI18next).init({
           scheduler: {
             title: "Agendar Exames",
             description:
-              "Este sistema foi desenvolvido para maximizar a eficiência dos processos administrativos em ambientes de saúde. Com uma interface intuitiva, ele facilita à equipe a busca, registro e atualização de informações dos pacientes, a gestão de orçamentos e o agendamento de exames, proporcionando uma operação mais ágil e organizada.",
+              "Um sistema para agilizar o agendamento de exames e a apresentação de orçamentos, substituindo o atendimento telefônico, que permitia agendar apenas um exame por vez. Com integração ao WhatsApp, o sistema melhorou a eficiência operacional e proporcionou uma experiência mais ágil para os pacientes.",
           },
           forms: {
             title: "Formulários Personalizados",
             description:
-              "Este sistema integrado de gerenciamento de formulários foi desenvolvido para maximizar a eficiência em todas as etapas do processo. Desde a criação até a distribuição e análise, o sistema proporciona uma experiência contínua que melhora a produtividade dos funcionários e garante um gerenciamento de formulários mais eficiente, resultando em economia de tempo e recursos para a empresa.",
+              "Um  sistema para digitalizar formulários em papel nos laboratórios médicos, melhorando o controle e a qualidade das informações dos pacientes. O projeto aumentou a eficiência, reduziu erros, melhorou a segurança dos dados e resultou em economia de custos, transformando a gestão de dados e proporcionando uma experiência mais segura para todos os envolvidos.",
           },
           furniture: {
             title: "Mobly",

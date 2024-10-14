@@ -8,11 +8,26 @@ import BandstandImage from "@/assets/Bandstand.png";
 import MallImage from "@/assets/Mall.png";
 import MimmoImage from "@/assets/Mimmo.png";
 import AnferplasImage from "@/assets/Anferplas.png";
+import AmoVoceImage from "@/assets/AmoVoce.png";
 
 import Card from "./Card";
 import { t } from "i18next";
 
 const projects = [
+  {
+    prop: "loveyou",
+    skills: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind",
+      "Vercel",
+      "Stripe",
+      "Supabase",
+      "AWS",
+    ],
+    link: "https://www.amovoce.net/",
+    image: AmoVoceImage,
+  },
   {
     prop: "guto",
     skills: ["React", "TypeScript", "Tailwind", "Framer Motion", "Vercel"],
