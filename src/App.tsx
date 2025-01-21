@@ -42,17 +42,19 @@ function App() {
   return (
     <main
       className={clsx(
-        "px-[24px] py-[48px] text-primary-foreground leading-relaxed bg-background max-w-screen-md mx-auto",
+        "px-[24px] py-[48px] text-primary-foreground leading-relaxed bg-background",
         theme !== "light" && "dark"
       )}
     >
       <div className="bg-primary h-[6px] absolute w-full top-0 left-0"></div>
-      <AppContext.Provider value={{ theme, setTheme }}>
-        <Header />
-        <Projects />
-        <Experience />
-        <Footer />
-      </AppContext.Provider>
+      <div className="max-w-screen-md mx-auto">
+        <AppContext.Provider value={{ theme, setTheme }}>
+          <Header />
+          <Projects />
+          <Experience />
+          <Footer />
+        </AppContext.Provider>
+      </div>
     </main>
   );
 }
