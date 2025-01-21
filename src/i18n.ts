@@ -23,6 +23,8 @@ i18n.use(initReactI18next).init({
         },
         projects: {
           title: "PROJECTS",
+          more: "View All Projects",
+          less: "View Less",
           loveyou: {
             title: "Amo Você",
             description:
@@ -131,6 +133,8 @@ i18n.use(initReactI18next).init({
         },
         projects: {
           title: "PROJETOS",
+          more: "Ver Todos os Projetos",
+          less: "Ver Menos",
           loveyou: {
             title: "Amo Você",
             description:

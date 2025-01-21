@@ -12,6 +12,7 @@ import AmoVoceImage from "@/assets/AmoVoce.png";
 
 import Card from "./Card";
 import { t } from "i18next";
+import { useState } from "react";
 
 const projects = [
   {
@@ -105,13 +106,19 @@ const projects = [
 ];
 
 function App() {
+  const [visibleProjects, setVisibleProjects] = useState(4); // Estado para controlar projetos visíveis
+
+  const toggleProjects = () => {
+    setVisibleProjects((prev: number) => (prev === 4 ? projects.length : 4));
+  };
+
   return (
     <section className="pt-16">
       <h3 className="text-sm font-bold py-5 mb-4 text-secondary-foreground">
         {t("projects.title")}
       </h3>
       <div>
-        {projects.map((project) => (
+        {projects.slice(0, visibleProjects).map((project) => (
           <Card
             prop={project.prop}
             skills={project.skills}
@@ -121,15 +128,14 @@ function App() {
           />
         ))}
       </div>
-      {/* <div
-        className="flex gap-2 items-center cursor-pointer mb-12 hover:underline hover:text-primary"
-        onClick={() => {
-          // setViewAll(!viewAll);
-        }}
+      <div
+        className="flex gap-2 items-center cursor-pointer mb-12 hover:text-primary"
+        onClick={toggleProjects}
       >
-        <p className="font-semibold">View All Projects</p>
-        <ArrowRight size={18} />
-      </div> */}
+        <button className="font-semibold bg-primary rounded-full px-5 py-2 hover:bg-white">
+          {visibleProjects === 4 ? `${t("projects.more")}` : `${t("projects.less")}`}
+        </button>
+      </div>
     </section>
   );
 }
