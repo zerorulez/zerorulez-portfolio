@@ -129,11 +129,13 @@ function App() {
         ))}
       </div>
       <div
-        className="flex gap-2 items-center cursor-pointer mb-12 hover:text-primary"
+        className="flex gap-2 items-center cursor-pointer mb-12"
         onClick={toggleProjects}
       >
-        <button className="font-semibold bg-primary rounded-full px-5 py-2 hover:bg-white">
-          {visibleProjects === 4 ? `${t("projects.more")}` : `${t("projects.less")}`}
+        <button className="font-semibold bg-primary text-white rounded-full px-5 py-2 hover:bg-secondary hover:text-primary">
+          {visibleProjects === 4
+            ? `${t("projects.more")}`
+            : `${t("projects.less")}`}
         </button>
       </div>
     </section>
