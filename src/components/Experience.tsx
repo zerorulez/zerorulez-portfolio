@@ -12,6 +12,48 @@ function App() {
       <div className="flex flex-col">
         <div className="mb-12">
           <p className="text-xs font-semibold mb-2 text-secondary-foreground">
+            {t("experience.arco.duration")}
+          </p>
+          <a
+            href="https://www.arcoeducacao.com.br/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-semibold transition-all duration-300 group/link hover:text-primary"
+          >
+            <div className="flex gap-1 items-center">
+              {t("experience.arco.title")}
+              <ArrowUpRight
+                size={18}
+                className="transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1"
+              />
+            </div>
+          </a>
+          <p className="mt-2 text-sm">{t("experience.arco.description")}</p>
+          <ul className="mt-3 font-semibold text-xs flex flex-wrap gap-2 text-white">
+            <li className="px-3 py-1 leading-5 rounded-full bg-primary">
+              AngularJS
+            </li>
+            <li className="px-3 py-1 leading-5 rounded-full bg-primary">
+              React
+            </li>
+            <li className="px-3 py-1 leading-5 rounded-full bg-primary">
+              Next.js
+            </li>
+            <li className="px-3 py-1 leading-5 rounded-full bg-primary">
+              TypeScript
+            </li>
+            <li className="px-3 py-1 leading-5 rounded-full bg-primary">
+              Docker
+            </li>
+            <li className="px-3 py-1 leading-5 rounded-full bg-primary">GCP</li>
+            <li className="px-3 py-1 leading-5 rounded-full bg-primary">AWS</li>
+            <li className="px-3 py-1 leading-5 rounded-full bg-primary">
+              Continuous Integration
+            </li>
+          </ul>
+        </div>
+        <div className="mb-12">
+          <p className="text-xs font-semibold mb-2 text-secondary-foreground">
             {t("experience.allianca.duration")}
           </p>
           <a

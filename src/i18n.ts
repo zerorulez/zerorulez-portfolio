@@ -83,9 +83,15 @@ i18n.use(initReactI18next).init({
         },
         experience: {
           title: "EXPERIENCE",
+          arco: {
+            title: "Software Engineer at Arcotech",
+            duration: "Sep 2024 — Present",
+            description:
+              "Contributed to the enhancement of the platform used by top-performing schools in Brazil, helping to build features that strengthen academic integrity in online assessments, including anti-cheating mechanisms. Also collaborated in developing solutions for uploading and presenting multimedia content (videos and audio), enriching the overall educational experience.",
+          },
           allianca: {
             title: "Senior Front-end Engineer at Alliança",
-            duration: "Jan 2022 — Present",
+            duration: "Jan 2022 — Aug 2024",
             description:
               "I developed a system that digitized forms and automated processes, enhancing accuracy, data security, and efficiency, while also generating cost savings and improving regulatory compliance.",
           },
@@ -193,9 +199,15 @@ i18n.use(initReactI18next).init({
         },
         experience: {
           title: "EXPERIÊNCIA",
+          arco: {
+            title: "Engenheiro de Software na Arcotech",
+            duration: "Set 2024 — Presente",
+            description:
+              "Atuei na evolução da plataforma utilizada por algumas das melhores escolas do Brasil, contribuindo para a construção de funcionalidades que aumentam a integridade acadêmica em avaliações e atividades online, como mecanismos anti-cola. Também participei do desenvolvimento de soluções para upload e exibição de conteúdos multimídia (vídeos e áudios), promovendo uma experiência educacional mais rica e acessível.",
+          },
           allianca: {
             title: "Engenheiro Front-end Sênior na Alliança",
-            duration: "Jan 2022 — Presente",
+            duration: "Jan 2022 — Ago 2024",
             description:
               "Desevolvi um sistema que digitalizou formulários e automatizou processos, aumentando a precisão, segurança dos dados e eficiência, além de gerar economia e melhorar a conformidade regulatória.",
           },
