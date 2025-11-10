@@ -85,7 +85,7 @@ i18n.use(initReactI18next).init({
           title: "EXPERIENCE",
           arco: {
             title: "Software Engineer at Arcotech",
-            duration: "Sep 2024 — Present",
+            duration: "Sep 2024 — Nov 2025",
             description:
               "Contributed to the enhancement of the platform used by top-performing schools in Brazil, helping to build features that strengthen academic integrity in online assessments, including anti-cheating mechanisms. Also collaborated in developing solutions for uploading and presenting multimedia content (videos and audio), enriching the overall educational experience.",
           },
@@ -201,7 +201,7 @@ i18n.use(initReactI18next).init({
           title: "EXPERIÊNCIA",
           arco: {
             title: "Engenheiro de Software na Arcotech",
-            duration: "Set 2024 — Presente",
+            duration: "Set 2024 — Nov 2025",
             description:
               "Atuei na evolução da plataforma utilizada por algumas das melhores escolas do Brasil, contribuindo para a construção de funcionalidades que aumentam a integridade acadêmica em avaliações e atividades online, como mecanismos anti-cola. Também participei do desenvolvimento de soluções para upload e exibição de conteúdos multimídia (vídeos e áudios), promovendo uma experiência educacional mais rica e acessível.",
           },

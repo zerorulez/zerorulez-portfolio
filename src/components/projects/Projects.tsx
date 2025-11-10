@@ -26,7 +26,7 @@ const projects = [
       "Supabase",
       "AWS",
     ],
-    link: "https://www.amovoce.net/",
+    link: "https://love-you-zerorulezs-projects.vercel.app/",
     image: AmoVoceImage,
   },
   {
